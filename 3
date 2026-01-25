@@ -1,0 +1,10 @@
+r = int(input("Rows: "))
+c = int(input("Cols: "))
+
+matrix = []
+for i in range(r):
+    row = list(map(int, input().split()))
+    matrix.append(row)
+
+for row in matrix:
+    print(row)
